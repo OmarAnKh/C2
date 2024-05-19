@@ -29,6 +29,7 @@ void display_by_year(Cars *car, int size, int year);
 void display_by_model(Cars *car, int size, char *model);
 int main()
 {
+    
     fstream Cars_catalog;
     Cars_catalog.open("Assignment_3_text_file", ios::in);
     if (!Cars_catalog.is_open())
